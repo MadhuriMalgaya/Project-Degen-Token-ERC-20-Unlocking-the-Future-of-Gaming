@@ -29,7 +29,7 @@ module.exports = {
       gasPrice: 225000000000,
       chainId: 43113,
       accounts: [
-        '328c13514a6af604628304f062fbbcb006a237db9a8cfcf51afc2b008f0dd692'
+        //private key here
       ]
     },
     mainnet: {
@@ -37,7 +37,7 @@ module.exports = {
       gasPrice: 225000000000,
       chainId: 43114,
       accounts: [
-        '328c13514a6af604628304f062fbbcb006a237db9a8cfcf51afc2b008f0dd692'
+        //private key here
       ]
     }
   }

@@ -12,7 +12,7 @@ contract DegenToken is ERC20, Ownable {
     event Redeem(address indexed from, uint256 value, string itemName);
 
     constructor() ERC20("Degen", "DGN") Ownable(msg.sender) {
-
+        
         _itemPrices["tea"] = 10;
         _itemPrices["coffee"] = 15;
         _itemPrices["chips"] = 5;
@@ -52,7 +52,5 @@ contract DegenToken is ERC20, Ownable {
         return _itemPrices[itemName];
     }
 
-    function setItemPrice(string memory itemName, uint256 price) public onlyOwner {
-        _itemPrices[itemName] = price;
-    }
+    
 }
